@@ -1,0 +1,56 @@
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+   display: flex;
+   align-items: center;
+   font-weight: 400;
+   font-size: 16px;
+   padding: 0;
+   padding-left: 8px;
+}
+
+.ant-collapse {
+   width: 100%;
+   margin: 5px;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-extra {
+   display: flex;
+   align-items: center;
+}
+
+.ant-collapse-content > .ant-collapse-content-box {
+   padding: 6px;
+}
+
+.description {
+   font-weight: 400;
+   font-size: 1.2em;
+}
+
+.table {
+	width: 100%;
+   min-width: 320px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+}
+
+.table td {
+	padding: 2px;
+}
+
+@media (min-width: 1400px) {
+   .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+      font-size: 1.2vw;
+   }
+   .table {
+      font-size: 1.2vw;
+   }
+   .description {
+      font-size: 1.2vw;
+   }
+   .ant-collapse-header {
+      height: 7vh;
+   }
+   .ant-collapse-content {
+      height: 20vh;
+   }
+}

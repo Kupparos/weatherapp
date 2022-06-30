@@ -1,0 +1,63 @@
+.current_weather {
+   padding: 10px;
+   width: 100%;
+   height: 100%;
+}
+
+.city_info {
+   font-size: large;
+   font-weight: 400;
+   text-align: start;
+   padding: 5px;
+}
+
+.weather_info {
+   font-size: 45px;
+   font-weight: 400;
+}
+
+.weather_info_more {
+   border-left: 2px solid black ;
+   margin-left: 10px;
+   margin-bottom: 15px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   justify-items: center;
+}
+
+p {
+   font-size: 15px;
+   margin: 0;
+   display: flex;
+   align-items: center;
+}
+
+.p0 {
+   grid-column-start: 1;
+   grid-column-end: 3;
+}
+
+.leaflet-touch .leaflet-bar a {
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+   font-size: 15px;
+}
+
+@media (min-width: 765px) {
+   p {
+      font-size: 1.2vw;
+   }
+   .city_info {
+      font-size: 1.2vw;
+      margin-bottom: 1vh;
+   }
+   .weather_info {
+      font-size: 2.5vw;
+      margin: 2vh 0;
+   }
+   .weather_info_more {
+      margin: 2vh 0;
+      margin-left: 1vh;
+   }
+}
